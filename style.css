@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-container {
+    background: #ffffff;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    display: flex;
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+}
+.profile-pic:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.highlight {
+    color: #4a90e2;
+}
+.btn.primary {
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 25px;
+}
